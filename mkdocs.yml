@@ -1,4 +1,4 @@
-site_name: My Docs123
+site_name: KGiusti4130
 
 theme:
   name: material
@@ -12,6 +12,8 @@ theme:
     - search.highlight
     #- toc.integrate
     - toc.follow  
+
+
 
   icon:
     annotation: material/arrow-right-circle    
