@@ -14,5 +14,5 @@
     This is a simple paragraph with some notes, (2) This is just more
     info that can be written into the box.
 
-1.  :man_raising_hand: I'm an annotation!1
+1.  :man_raising_hand: I'm an annotation!
 2.  :woman_raising_hand: I'm an annotation as well!
