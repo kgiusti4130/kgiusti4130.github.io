@@ -78,3 +78,5 @@ l2ls-fabric-clab-ceos/reports
 
 #Config backups after running deploy
 l2ls-fabric-clab-ceos/config_backup
+
+*.devcontainer/
