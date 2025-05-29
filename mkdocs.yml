@@ -1,0 +1,101 @@
+# theme:
+#   name: 'material'
+#   palette:
+#     primary: indigo  
+
+# theme: readthedocs
+
+site_name: Juice Website
+site_author: Kevin Giusti
+site_description: Just a collection of IT notes
+# strict: true
+theme:
+  name: material
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+    #- toc.integrate
+    - toc.follow
+  # icon:
+  #   annotation: material/arrow-right-circle    
+
+  highlightjs: true
+  icon:
+    # repo: fontawesome/brands/github
+    logo: fontawesome/solid/book
+    # edit: fontawesome/solid/file-pen
+  favicon: docs/_media/favicon.ico
+  font:
+    code: Fira Mono
+  language: en
+  include_search_page: false
+  search_index_only: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode    
+
+nav:
+  - Home: index.md  
+  - Arista: arista.md
+  - Docker: docker.md
+  - Git: git.md
+  - info: info.md
+  - About: about.md 
+  - Sample: sample.md  
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all      
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg  
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences      
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.keys
+  - pymdownx.smartsymbols:
+      fractions: false
+  - pymdownx.snippets:
+      base_path: 'ansible_collections/arista/avd/'
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - smarty
+  - tables
+  - toc:
+      separator: "-"
+      permalink: true  
