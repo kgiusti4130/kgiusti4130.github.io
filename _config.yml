@@ -1,3 +1,12 @@
 theme: jekyll-theme-minimal
 title: Octocat's homepage123
 description: Bookmark this to keep an eye on my project updates!
+
+nav:
+  - Home: index.md  
+  - Arista: arista.md
+  - Docker: docker.md
+  - Git: git.md
+  - info: info.md
+  - About: about.md 
+  - Sample: sample.md  
