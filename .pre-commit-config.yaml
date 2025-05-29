@@ -12,6 +12,7 @@ repos:
         exclude_types: [svg, json]
 
       - id: check-yaml
+        exclude: mkdocs.yml
 
   # - repo: https://github.com/igorshubovych/markdownlint-cli
   #   rev: v0.43.0
