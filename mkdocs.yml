@@ -1,1 +1,14 @@
 site_name: My Docs
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+nav:
+  - ...
+  - Blog:
+    - blog/index.md
+
+plugins:
+  - search:
+      lang: en
