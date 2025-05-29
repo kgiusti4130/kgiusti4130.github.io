@@ -13,8 +13,6 @@ theme:
     #- toc.integrate
     - toc.follow  
 
-
-
   icon:
     annotation: material/arrow-right-circle    
 
