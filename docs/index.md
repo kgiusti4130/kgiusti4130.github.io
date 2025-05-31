@@ -1,8 +1,6 @@
-# Welcome to KGiusti MKDocs
+# Home
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-
 
 ## Commands
 
@@ -42,7 +40,7 @@ total 428
     info that can be written into the box.
 
 1.  :man_raising_hand: I'm an annotation!
-2.  :woman_raising_hand: I'm an annotation as well!   
+2.  :woman_raising_hand: I'm an annotation as well!
 
 #### Workflow for brining IDF online.
 1. Build configs in AVD via build.yml playbook.
@@ -84,7 +82,7 @@ total 428
 - Add network state validation similar to `eos_validate_state`.
 - Add CloudVision tag integrations
 - Make PyAVD the source of AVD logic and use as a dependency for the `arista.avd` Ansible collection.
-- Explore support for custom Jinja2 templates.    
+- Explore support for custom Jinja2 templates.
 
 
 ## More info
@@ -110,7 +108,7 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
 { .annotate }
 
 1.  :man_raising_hand: I'm an annotation! I can contain `code`, __formatted
-    text__, images, ... basically anything that can be expressed in Markdown.        
+    text__, images, ... basically anything that can be expressed in Markdown.
 
 !!! note annotate "Phasellus posuere in sem ut cursus (1)"
 
@@ -119,7 +117,7 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
     purus auctor massa, nec semper lorem quam in massa.
 
 1.  :man_raising_hand: I'm an annotation!
-2.  :woman_raising_hand: I'm an annotation as well!    
+2.  :woman_raising_hand: I'm an annotation as well!
 
 #### Another way of doing annotations with tabs
 
@@ -195,8 +193,8 @@ Previously we downloaded and created a repository called `samplefiles`. Reset th
 
 ``` bash
 cd /home/coder/project/labfiles/samplefiles
-rm -rf .git   
-```  
+rm -rf .git
+```
 
 #### In case you want to add a question
 
@@ -291,10 +289,10 @@ This will yield output similar to below:
 
 ???+ tip
     This will show the differences between the current device configuration
-    and the configuration before we did our `make deploy` command.                
+    and the configuration before we did our `make deploy` command.
 
 ???+ tip
-    Daisy chaining "Makesies" is a great way to run a series of tasks with a single CLI command :grinning:    
+    Daisy chaining "Makesies" is a great way to run a series of tasks with a single CLI command :grinning:
 
 
 ### Highlight lines of code
@@ -336,7 +334,7 @@ theme:
 interface Ethernet1
    no switchport # (1)
    no shutdown # (2)
- 
+
 ```
 
 1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
