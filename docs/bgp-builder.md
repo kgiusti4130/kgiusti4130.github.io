@@ -1,6 +1,6 @@
 ---
 hide:
-  - path
+  - navigation
 ---
 
 # **BGP Builder info**
