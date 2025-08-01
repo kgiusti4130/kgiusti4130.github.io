@@ -26,6 +26,23 @@ root@docker-desktop:/workspace# cd bgp-builder/
 root@docker-desktop:/workspace# make bgp
 ```
 
+### Sample output
+
+```text
+root@docker-desktop:/workspace/bgp-builder# make bgp
+ansible-playbook ./playbooks/bgp_builder.yml
+
+PLAY [BGP Builder Playbook] ***************************************************************************************************************************************************
+
+TASK [Generate BGP output] ****************************************************************************************************************************************************
+ok: [localhost]
+
+PLAY RECAP ********************************************************************************************************************************************************************
+localhost                  : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+
+root@docker-desktop:/workspace/bgp-builder#
+```
+
 ## Folder descriptions/info
 
 ### .devcontainer
